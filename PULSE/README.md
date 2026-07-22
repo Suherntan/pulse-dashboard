@@ -1,4 +1,4 @@
-# P.U.L.S.E Dashboard
+# P.U.L.S.E Dashboard 
 
 A mobile-friendly sales tracking dashboard for insurance agents.
 
