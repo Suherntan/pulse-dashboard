@@ -114,7 +114,7 @@ const API = {
             });
 
             if (!response.ok) {
-                throw new Error(\HTTP error! status: \\);
+                throw new Error(`HTTP error! status: ${response.status}`);
             }
 
             const data = await response.json();
@@ -167,7 +167,7 @@ const API = {
             });
 
             if (!response.ok) {
-                throw new Error(\HTTP error! status: \\);
+                throw new Error(`HTTP error! status: ${response.status}`);
             }
 
             const result = await response.json();
